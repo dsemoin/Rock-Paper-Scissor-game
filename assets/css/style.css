@@ -1,9 +1,13 @@
-body{
-    color: blueviolet;
-}
+/* change bootstrap and css order on html to show background */
 .jumbotron{
-   text-align: center; 
+    text-align: center; 
+    background-image: url("rps.jpeg");
+    border: 5px solid rgb(0, 132, 255);
+    margin: 20px;
+    background:rgb(224, 169, 224);
+    font-weight: bold;
 }
-.result{
-size: 50px;
+#result {
+    font-size: 30px;
+    font-weight: bold;
 }
